@@ -6,16 +6,30 @@ import { connect } from 'react-redux';
 import CATS from '../data/cats.json';
 import { getCats } from '../reducer';
 
+const setPrevious = ({ catIndex }, { cats }) => ({
+  catIndex: catIndex > 0 ? catIndex - 1 : cats.length - 1,
+});
+
 class CatsViewerContainer extends Component {
-  componentWillMount() {
-    this.props.loadAllCats();
+  constructor(props) {
+    super(props);
     this.state = {
       catIndex: 0,
     };
   }
 
+  componentWillMount() {
+    this.props.loadAllCats();
+  }
+
+  next = () => {
+    this.setState({
+      catIndex: (this.state.catIndex + 1) % this.props.cats.length,
+    });
+  };
+
   previous = () => {
-    this.setState
+    this.setState(setPrevious);
   };
 
   render() {
