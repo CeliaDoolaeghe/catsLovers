@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import Card from './Card';
 import { loadCats } from './actions';
 import { connect } from 'react-redux';
+import { getCats } from '../reducer';
 
 import CATS from '../data/cats.json';
-import { getCats } from '../reducer';
 
 const setPrevious = ({ catIndex }, { cats }) => ({
   catIndex: catIndex > 0 ? catIndex - 1 : cats.length - 1,
