@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e14a82d-c0e4-452c-b45a-58c541377699" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CatsViewerContainer.js" afterPath="$PROJECT_DIR$/src/components/CatsViewerContainer.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CatsViewer.container.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CatsViewer.container.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/CatsViewer.container.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="404">
@@ -51,6 +50,16 @@
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/CatsViewer.js" />
         <option value="$PROJECT_DIR$/src/components/CatsViewer.container.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -299,12 +309,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516358919265</updated>
       <workItem from="1516358920640" duration="16653000" />
-      <workItem from="1516606865882" duration="149000" />
+      <workItem from="1516606865882" duration="542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16802000" />
+    <option name="totallyTimeSpent" value="17195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -522,6 +532,14 @@
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
