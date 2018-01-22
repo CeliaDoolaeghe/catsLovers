@@ -1,6 +1,6 @@
 import {getCats} from '../reducer';
 import {loadCats} from './actions';
-import connect from 'react-redux/es/connect/connect';
+import {connect} from 'react-redux';
 import {compose, lifecycle, withHandlers, withProps, withState} from 'recompose';
 import CatsViewer from './CatsViewer';
 

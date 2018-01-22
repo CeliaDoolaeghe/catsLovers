@@ -13,5 +13,15 @@
     "race": "Norvégien",
     "url": "http://chatteriedurandal.free.fr/miou/MIOU_2.jpg",
     "description": "Le norvégien, également appelé chat des forêts norvégiennes ou norsk skogkatt, est une race de chat à poil mi-long originaire de Norvège."
+  },
+  {
+    "race": "British Shorthair",
+    "url": "https://previews.123rf.com/images/isselee/isselee1103/isselee110300446/8972925-british-shorthair-cat-8-months-old-in-front-of-white-background.jpg",
+    "description": "Le british shorthair est une race de chat originaire de Grande-Bretagne. Ce chat de taille moyenne à grande est caractérisé par sa tête très ronde et ses grands yeux ronds."
+  },
+  {
+    "race": "Bengal",
+    "url": "https://usercontent1.hubstatic.com/1245780_f496.jpg",
+    "description": "Le bengal est une race de chat originaire des États-Unis. Cette race de taille moyenne à grande, par rapport aux autres chats, se caractérise par sa fourrure ressemblant à celle du Chat léopard du Bengale, une espèce de chat sauvage dont il est issu, par croisement avec des chats domestiques."
   }
 ]
