@@ -16,7 +16,7 @@ const mapDispatchToProps = dispatch => ({
     }
 });
 
-const handlers = {
+export const handlers = {
     previous: ({setCatIndex, cats, catIndex}) => () => {
         setCatIndex(catIndex > 0 ? catIndex - 1 : cats.length - 1)
     },
@@ -31,7 +31,7 @@ const lifeCycle = {
     }
 };
 
-const loadNewProps = ({cats, catIndex}) => ({
+export const loadNewProps = ({cats, catIndex}) => ({
     cat: cats[catIndex],
     isCatsLoaded: cats.length !== 0,
 });
