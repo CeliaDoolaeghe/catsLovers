@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import CatsViewerContainer from './components/CatsViewer.container';
+import CatsViewerContainer from './components/CatsViewerContainer';
 
 class App extends Component {
   render() {
